@@ -1,0 +1,21 @@
+{
+  "name": "opencloset.css",
+  "homepage": "https://github.com/opencloset/opencloset.css",
+  "authors": [
+    "Hyungsuk Hong <aanoaa@gmail.com>"
+  ],
+  "description": "Common opencloset stylesheet",
+  "main": "less/opencloset.less",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
