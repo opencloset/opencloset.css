@@ -10,3 +10,7 @@ Common opencloset stylesheet
 # build opencloset.css
 
     $ grunt
+
+# bower
+
+    $ bower install https://github.com/opencloset/opencloset.css.git
