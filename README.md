@@ -13,4 +13,4 @@ Common opencloset stylesheet
 
 # bower
 
-    $ bower install https://github.com/opencloset/opencloset.css.git
+    $ bower install https://github.com/opencloset/opencloset.css.git -S
