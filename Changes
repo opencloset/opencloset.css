@@ -1,2 +1,4 @@
+  - Fix related font dir path
+
 v1.0.1    Thu, 28 Jan 2016 14:06:31 +0900
   - use 'Noto Sans KR' fonts
