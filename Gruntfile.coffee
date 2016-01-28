@@ -29,6 +29,13 @@ module.exports = (grunt) ->
         dest: 'dist/css'
         ext: '.min.css'
 
+    copy:
+      dist:
+        expand: true
+        cwd: 'fonts'
+        src: '**'
+        dest: 'dist/fonts'
+
     less:
       dist:
         options:
@@ -37,7 +44,7 @@ module.exports = (grunt) ->
           outputSourceFiles: true
         expand: true
         cwd: 'less'
-        src: ['*.less']
+        src: ['*.less','!_*.less']
         dest: 'dist/css'
         ext: '.css'
 
@@ -51,7 +58,7 @@ module.exports = (grunt) ->
 
   # Docs task
   grunt.registerTask('dist-css', ['less:dist', 'csscomb:dist', 'cssmin:dist'])
-  grunt.registerTask('dist', ['clean', 'dist-css'])
+  grunt.registerTask('dist', ['clean', 'dist-css', 'copy'])
 
   # Default task
   grunt.registerTask('default', ['dist'])
