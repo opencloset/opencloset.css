@@ -1,6 +1,6 @@
 {
   "name": "opencloset.css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common opencloset stylesheet",
   "main": "less/opencloset.less",
   "scripts": {
