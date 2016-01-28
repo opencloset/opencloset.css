@@ -43,6 +43,9 @@
 
   src: url(../fonts/NotoSansKR-Black.otf) format('opentype');
 }
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
 h1,
 h2,
 h3,
