@@ -57,4 +57,10 @@ h6 {
 h1 {
   color: #bb5;
 }
+.fa.fa-male {
+  color: #00f;
+}
+.fa.fa-female {
+  color: #f00;
+}
 /*# sourceMappingURL=dist/css/opencloset.css.map */
