@@ -56,7 +56,6 @@ module.exports = (grunt) ->
   require('load-grunt-tasks')(grunt, { scope: 'devDependencies' })
   require('time-grunt')(grunt)
 
-  # Docs task
   grunt.registerTask('dist-css', ['less:dist', 'csscomb:dist', 'cssmin:dist'])
   grunt.registerTask('dist', ['clean', 'dist-css', 'copy'])
 

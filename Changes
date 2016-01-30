@@ -1,10 +1,10 @@
-v0.1.4    Fri, 29 Jan 2016 16:10:23 +0900
+v1.0.4    Fri, 29 Jan 2016 16:10:23 +0900
   - Change `.fa.fa-male` and `.fa.fa-female` color
 
-v0.1.3    Thu, 28 Jan 2016 14:17:20 +0900
+v1.0.3    Thu, 28 Jan 2016 14:17:20 +0900
   - use NotoSans as default font-family in body {}
 
-v0.1.2    Thu, 28 Jan 2016 14:12:00 +0900
+v1.0.2    Thu, 28 Jan 2016 14:12:00 +0900
   - Fix related font dir path
 
 v1.0.1    Thu, 28 Jan 2016 14:06:31 +0900
